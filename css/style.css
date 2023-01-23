@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Press+Start+2P&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Press Start 2P', cursive; 
+}
+
+/* Sección Header */
+.menu {
+    background-color: #fff000;
+}
+
+.menu__nav {
+    padding: 1rem;
+    text-align: end;
+}
+
+.menu__nav-icon {
+    float: left;
+}
+
+.menu__nav-icon span{
+    font-size: 1.5rem;
+}
+
+.menu__nav-list li {
+    display: inline;
+    font-size: 2.5rem;
+    padding: 1rem;
+}
+
+.menu__nav-list li a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* Sección Main */
+main {
+    background-color: #674ea7;
+}
+
+.hero {
+    text-align: center;
+    padding: 8rem 0 8rem 0;
+    color: #fff;
+}
+
+.hero h1 {
+    margin-bottom: 1.5rem;
+    font-size: 3.5rem;
+}
+
+.product-section {
+    background-color: #fff000;
+    text-align: center;
+    padding: 5rem;
+}
+
+.product-section h2 {
+    font-size: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+.product-section img {
+    width: 300px;
+    height: 500px;
+    margin: 0.5rem;
+}
+
+.featured-product {
+    text-align: center;
+    padding: 5rem;
+}
+
+.featured-product h2 {
+    font-size: 2.5rem;
+    padding-bottom: 2rem;
+    color: #fff;
+}
+
+.featured-product img {
+    width: 300px;
+    height: 500px;
+    margin: 0.5rem;
+}
+
+/* Sección Footer */
+
+.footer {
+    background-color: #fff000;
+    padding: 3rem;
+}
+
+.footer__section {
+    text-align: end;
+}
+
+.footer__section-rrss {
+    float: left;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+
+.footer__section-rrss a {
+    text-decoration: none;
+}
+
+.tag-legal {
+    text-align: center;
+}
+
+/* ---------- Pagina de Contacto ---------*/
+
+.form-title {
+    padding: 5rem;
+    color: #fff;
+    text-align: center;
+}
+
+.form-title h1 {
+    font-size: 3.5rem;
+}
+
+.form-section {
+    text-align: center;
+    background-color: #fff000;
+    padding: 5rem;
+}
+
+.questions {
+    padding: 5rem;
+    color: #fff;
+}
+
+.questions h2 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.questions p {
+    margin-top: 1rem;
+}
+
+/* ---------- Pagina de Producto ---------*/
+.products {
+    padding: 5rem;
+}
+
+.products-title {
+    padding: 5rem;
+    color: #fff;
+    text-align: center; 
+}
+
+.products-title h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.products__section {
+    background-color: #fff000;
+}
+
+.products__section-option {
+    text-align: end;
+}
