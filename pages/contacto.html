@@ -11,51 +11,30 @@
     <title>Contacto</title>
 </head>
 <body>
-    <!-- <header class="menu">
-        <nav class="menu__nav">
-            <div class="menu__nav-icon">
-                <img src="../assets/alien-icon.png" alt="icono de la tienda">
-                <Span>GameMax Store</Span>
-            </div>
-            <div class="menu__nav-list">
-                <ul>
-                    <li>
-                        <a href="../index.html">Inicio</a>
-                    </li>
-                    <li>
-                        <a href="./productos.html">Productos</a>
-                    </li>
-                    <li>
-                        <a href="./contacto.html">Contacto</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header> -->
     <header class="menu">
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-              <img src="../assets/alien-icon.png" alt="icono de la tienda">
-              <a class="navbar-brand" href="#">GameMax Store</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <img src="../assets/alien-icon.png" alt="icono de la tienda">
+                <a class="navbar-brand" href="#">GameMax Store</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                  <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
-                  <a class="nav-link" href="./productos.html">Productos</a>
-                  <a class="nav-link active" href="./contacto.html">Contacto</a>
+                    <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                    <a class="nav-link" href="./productos.html">Productos</a>
+                    <a class="nav-link active" href="./contacto.html">Contacto</a>
                 </div>
-              </div>
             </div>
-          </nav>
+            </div>
+        </nav>
     </header><!-- Sección del Menu -->
     <main>
         <div class="form-title">
             <h1>FORMULARIO DE CONTACTO</h1>
         </div>
         <div class="form-section">
-            <form action="">
+            <!-- <form action="">
                 <fieldset>
                     <legend>Contactanos</legend>
                     <div>
@@ -72,6 +51,24 @@
                     </div>
                     <input type="submit" value="enviar formulario">
                     <input type="reset" value="resetear formulario">
+                </fieldset>
+            </form> -->
+            <form action="">
+                <fieldset>
+                    <div class="row">
+                        <label for="name" class="form-label">Nombre Completo</label>
+                        <input type="text" class="form-control" placeholder="Nombre Completo" aria-label="Nombre Completo">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Correo electronico</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Escribe tu comentario</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" value="enviar formulario">enviar formulario</button>
+                    <button type="reset" class="btn btn-warning" value="resetear formulario">resetear formulario</button>
                 </fieldset>
             </form>
         </div>

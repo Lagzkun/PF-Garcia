@@ -7,6 +7,10 @@
     font-family: 'Press Start 2P', cursive; 
 }
 
+body {
+    background: linear-gradient(#674ea700, #b2a60200), url(../assets/game-wallpaper.jpg);
+}
+
 /* Sección Header */
 .menu {
     background-color: #fff000;
@@ -38,7 +42,7 @@
 
 /* Sección Main */
 main {
-    background-color: #674ea7;
+    background-color: #674ea79b;
 }
 
 .hero {
@@ -146,10 +150,6 @@ main {
 }
 
 /* ---------- Pagina de Producto ---------*/
-.products {
-    padding: 5rem;
-}
-
 .products-title {
     padding: 5rem;
     color: #fff;
@@ -161,7 +161,7 @@ main {
 }
 
 .products-section {
-    background-color: #fff000;
+    background-color: #ffee00;
 }
 
 .products-section__list {
