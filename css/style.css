@@ -43,7 +43,7 @@ main {
 
 .hero {
     text-align: center;
-    padding: 8rem 1rem 8rem 1rem;
+    padding: 8rem 1rem;
     color: #fff;
 }
 
@@ -160,12 +160,26 @@ main {
     margin-bottom: 1.5rem;
 }
 
-.products__section {
+.products-section {
     background-color: #fff000;
 }
 
-.products__section-option {
-    text-align: end;
+.products-section__list {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2rem;
+    padding: 1rem;
+    justify-items: center;
+    text-align: center;
+}
+
+.products-section__list img {
+    height: -webkit-fill-available;
+}
+
+.products-section__option {
+    text-align: center;
+    padding-top: 1.5rem;
 }
 
 /* media query tablet  */
@@ -174,15 +188,41 @@ main {
     .producto-section__offers {
         grid-template-columns: repeat(2, 1fr);
     }
+    .products-section__list {
+        grid-template-columns: repeat(2,1fr);
+    }
+    .products {
+        padding: 2rem;
+    }
+    .products-title {
+        padding: 2rem;
+    }
 }
 
 /* media query mobile */
 
 @media only screen and (max-width:480px) {
 
+    a.navbar-brand {
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .hero {
+        padding: 2rem;
+    }
+
     .producto-section__offers {
         grid-template-columns: 1fr;
         gap: 3rem;
+    }
+
+    .products-section__list {
+        grid-template-columns: 1fr;
+    }
+
+    .products {
+        padding: 2rem 0 2rem 0;
     }
 
     .footer {
