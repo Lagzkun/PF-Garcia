@@ -11,44 +11,23 @@
     <title>Productos</title>
 </head>
 <body>
-    <!-- <header class="menu">
-        <nav class="menu__nav">
-            <div class="menu__nav-icon">
-                <img src="../assets/alien-icon.png" alt="icono de la tienda">
-                <Span>GameMax Store</Span>
-            </div>
-            <div class="menu__nav-list">
-                <ul>
-                    <li>
-                        <a href="../index.html">Inicio</a>
-                    </li>
-                    <li>
-                        <a href="./productos.html">Productos</a>
-                    </li>
-                    <li>
-                        <a href="./contacto.html">Contacto</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header> -->
     <header class="menu">
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-              <img src="../assets/alien-icon.png" alt="icono de la tienda">
-              <a class="navbar-brand" href="#">GameMax Store</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                  <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
-                  <a class="nav-link active" href="./productos.html">Productos</a>
-                  <a class="nav-link" href="./contacto.html">Contacto</a>
+                <img src="../assets/alien-icon.png" alt="icono de la tienda">
+                <a class="navbar-brand" href="#">GameMax Store</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                        <a class="nav-link active" href="./productos.html">Productos</a>
+                        <a class="nav-link" href="./contacto.html">Contacto</a>
+                    </div>
                 </div>
-              </div>
             </div>
-          </nav>
+        </nav>
     </header><!-- Sección del Menu -->
     <main class="products container">
         <div class="products-title">
@@ -199,7 +178,36 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> <!--sección de productos-->
+        <div class="featured-product">
+            <h2>DESTACADOS</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium pariatur<br>
+            excepturi beatae sequi blanditiis repellat, dicta quasi est deserunt repudiandae minima<br>
+            facilis quia cumque architecto, at exercitationem, labore debitis enim.</p> 
+            <div class="featured-product__carousel">
+                <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="2000">
+                            <img src="../assets/nintendo-switch.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="../assets/playstation-5.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="../assets/xbox-one.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div><!--Zona de destacados-->
     </main>
     <footer class="footer">
         <div class="footer-section">

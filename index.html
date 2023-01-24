@@ -73,12 +73,34 @@
                 </div>
             </div>
         </div>
-        <div class="featured-product">
+        <div class="featured-product container">
             <h2>DESTACADOS</h2>
-            <img src="./assets/playstation-5.jpg" alt="playstation 5">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium pariatur<br>
             excepturi beatae sequi blanditiis repellat, dicta quasi est deserunt repudiandae minima<br>
             facilis quia cumque architecto, at exercitationem, labore debitis enim.</p> 
+            <div class="featured-product__carousel">
+                <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="2000">
+                            <img src="./assets/nintendo-switch.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="./assets/playstation-5.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="./assets/xbox-one.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
         </div><!--Zona de destacados-->
     </main><!--Sección del contenido-->
     <footer class="footer">

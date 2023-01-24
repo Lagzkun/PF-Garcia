@@ -49,6 +49,7 @@ main {
     text-align: center;
     padding: 8rem 1rem;
     color: #fff;
+    text-shadow: 5px 5px 2px black;
 }
 
 .hero h1 {
@@ -81,11 +82,12 @@ main {
     text-align: center;
     padding: 3rem;
     width: 100%;
+    text-shadow: 5px 5px 2px black;
+    color: #fff;
 }
 
 .featured-product h2 {
     padding-bottom: 2rem;
-    color: #fff;
 }
 
 .featured-product img {
@@ -123,10 +125,7 @@ main {
     padding: 5rem;
     color: #fff;
     text-align: center;
-}
-
-.form-title h1 {
-    font-size: 3.5rem;
+    text-shadow: 5px 5px 2px black;
 }
 
 .form-section {
@@ -138,10 +137,10 @@ main {
 .questions {
     padding: 5rem;
     color: #fff;
+    text-shadow: 5px 5px 2px black;
 }
 
 .questions h2 {
-    font-size: 2.5rem;
     text-align: center;
 }
 
@@ -154,6 +153,7 @@ main {
     padding: 5rem;
     color: #fff;
     text-align: center; 
+    text-shadow: 5px 5px 2px black;
 }
 
 .products-title h1 {
@@ -223,6 +223,14 @@ main {
 
     .products {
         padding: 2rem 0 2rem 0;
+    }
+
+    .form-title {
+        padding: 2rem;
+    }
+
+    .questions {
+        padding: 2rem;
     }
 
     .footer {
