@@ -43,47 +43,52 @@ main {
 
 .hero {
     text-align: center;
-    padding: 8rem 0 8rem 0;
+    padding: 8rem 1rem 8rem 1rem;
     color: #fff;
 }
 
 .hero h1 {
     margin-bottom: 1.5rem;
-    font-size: 3.5rem;
 }
 
 .product-section {
     background-color: #fff000;
     text-align: center;
-    padding: 5rem;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
 }
 
 .product-section h2 {
     font-size: 2.5rem;
-    padding-bottom: 2rem;
+    padding-bottom: 5rem;
+}
+.producto-section__offers {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
 }
 
-.product-section img {
-    width: 300px;
-    height: 500px;
-    margin: 0.5rem;
+.producto-section__offers img {
+    height: -webkit-fill-available;
 }
+
 
 .featured-product {
     text-align: center;
-    padding: 5rem;
+    padding: 3rem;
+    width: 100%;
 }
 
 .featured-product h2 {
-    font-size: 2.5rem;
     padding-bottom: 2rem;
     color: #fff;
 }
 
 .featured-product img {
-    width: 300px;
+    width: auto;
     height: 500px;
     margin: 0.5rem;
+    max-width: 100%;
 }
 
 /* Sección Footer */
@@ -93,18 +98,15 @@ main {
     padding: 3rem;
 }
 
-.footer__section {
-    text-align: end;
+.footer-section {
+    display: flex;
+    justify-content: space-between;
 }
 
-.footer__section-rrss {
-    float: left;
-    writing-mode: vertical-rl;
-    text-orientation: mixed;
-}
-
-.footer__section-rrss a {
-    text-decoration: none;
+.footer-section__rrss {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .tag-legal {
@@ -155,7 +157,6 @@ main {
 }
 
 .products-title h1 {
-    font-size: 3.5rem;
     margin-bottom: 1.5rem;
 }
 
@@ -166,3 +167,41 @@ main {
 .products__section-option {
     text-align: end;
 }
+
+/* media query tablet  */
+
+@media only screen and (max-width:1024px) {
+    .producto-section__offers {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* media query mobile */
+
+@media only screen and (max-width:480px) {
+
+    .producto-section__offers {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+
+    .footer {
+        padding: .5rem;
+    }
+
+    .footer-section {
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: 1rem;
+    }
+
+    .footer-section__rrss {
+        flex-direction: initial;
+        justify-content: space-around;
+    }
+
+}
+
+
+
+

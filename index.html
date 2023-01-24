@@ -10,44 +10,23 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>GameMax Store</title>
 </head>
-    <!-- <header class="menu">
-        <nav class="menu__nav">
-            <div class="menu__nav-icon">
-                <img src="./assets/alien-icon.png" alt="icono de la tienda">
-                <Span>GameMax Store</Span>
-            </div>
-            <div class="menu__nav-list">
-                <ul>
-                    <li>
-                        <a href="./index.html">Inicio</a>
-                    </li>
-                    <li>
-                        <a href="./pages/productos.html">Productos</a>
-                    </li>
-                    <li>
-                        <a href="./pages/contacto.html">Contacto</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header> -->
     <header class="menu">
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-              <img src="./assets/alien-icon.png" alt="icono de la tienda">
-              <a class="navbar-brand" href="#">GameMax Store</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <img src="./assets/alien-icon.png" alt="icono de la tienda">
+                <a class="navbar-brand" href="#">GameMax Store</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                  <a class="nav-link active" aria-current="page" href="./">Inicio</a>
-                  <a class="nav-link" href="./pages/productos.html">Productos</a>
-                  <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                        <a class="nav-link" href="./pages/productos.html">Productos</a>
+                        <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                    </div>
                 </div>
-              </div>
             </div>
-          </nav>
+        </nav>
     </header><!-- Sección del Menu -->
     <main>
         <div class="hero">
@@ -56,15 +35,44 @@
                 Blanditiis maiores ab a ea vero ad quod, asperiores <br>
                 aliquid dignissimos, dolore nulla magni sequi ex eligendi<br> 
                 vitae quaerat, animi ratione perspiciatis!</p>
-        </div> <!--Mensaje de Bienvenida-->
+        </div>
         <div class="product-section">
             <h2>OFERTAS</h2>
-            <img src="./assets/zelda-breath-of-the-wild.jpg" alt="zelda breath of the wild">
-            <img src="./assets/god-of-war-ps5.jpg" alt="god of war ragnarok">
-            <img src="./assets/halo5-guardians.jpg" alt="halo 5">
-            <img src="./assets/mario-odyssey.jpg" alt="mario odyssey">
-            <button>Ver más</button>
-        </div> <!--Zona de Productos-->
+            <div class="producto-section__offers">
+                <div class="card p-2 shadow-lg" style="width: 18rem;">
+                    <h6 class="card-title">ZELDA BREATH OF THE WILD SWITCH</h6>
+                    <img src="./assets/zelda-breath-of-the-wild.jpg" class="card-img-top" alt="juego de zelda">
+                    <div class="card-body">
+                        <h5 class="card-title">$69.990</h5>
+                        <a href="#" class="btn btn-primary">Agregar al carro</a>
+                    </div>
+                </div>
+                <div class="card p-2 shadow-lg" style="width: 18rem;">
+                    <h6 class="card-title">GOD OF WAR RAGNAROK PS5</h6>
+                    <img src="./assets/god-of-war-ps5.jpg" class="card-img-top" alt="juego de zelda">
+                    <div class="card-body">
+                        <h5 class="card-title">$59.990</h5>
+                        <a href="#" class="btn btn-primary">Agregar al carro</a>
+                    </div>
+                </div>
+                <div class="card p-2 shadow-lg" style="width: 18rem;">
+                    <h6 class="card-title">HALO 5 GUARDIANS XBOX ONE</h6>
+                    <img src="./assets/halo5-guardians.jpg" class="card-img-top" alt="juego de zelda">
+                    <div class="card-body">
+                        <h5 class="card-title">$36.990</h5>
+                        <a href="#" class="btn btn-primary">Agregar al carro</a>
+                    </div>
+                </div>
+                <div class="card p-2 shadow-lg" style="width: 18rem;">
+                    <h6 class="card-title">MARIO ODYSSEY SWITCH</h6>
+                    <img src="./assets/mario-odyssey.jpg" class="card-img-top" alt="juego de zelda">
+                    <div class="card-body">
+                        <h5 class="card-title">$59.990</h5>
+                        <a href="#" class="btn btn-primary">Agregar al carro</a>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="featured-product">
             <h2>DESTACADOS</h2>
             <img src="./assets/playstation-5.jpg" alt="playstation 5">
@@ -74,8 +82,8 @@
         </div><!--Zona de destacados-->
     </main><!--Sección del contenido-->
     <footer class="footer">
-        <div class="footer__section">
-            <div class="footer__section-rrss">
+        <div class="footer-section">
+            <div class="footer-section__rrss">
                 <a href="#">
                     <img src="./assets/icon-facebook.png" alt="facebook">
                 </a>
@@ -86,8 +94,8 @@
                     <img src="./assets/icon-instagram.png" alt="instagram">
                 </a>
             </div> <!--Redes sociales-->
-            <div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330.9009486637788!2d-70.67597328443105!3d-33.39974828078854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c68694c680bd%3A0x7ff95a328ee8b171!2sVideoJuegos!5e0!3m2!1ses!2scl!4v1670539010886!5m2!1ses!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="footer-section__map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330.9009486637788!2d-70.67597328443105!3d-33.39974828078854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c68694c680bd%3A0x7ff95a328ee8b171!2sVideoJuegos!5e0!3m2!1ses!2scl!4v1670539010886!5m2!1ses!2scl" width="300" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div> <!--mapa de la dirección de la tienda-->
         </div>
         <div class="tag-legal">
@@ -95,6 +103,6 @@
         </div>
     </footer><!--Sección del pie de pagina-->
 <!-- script de bootstrap -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>.    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
