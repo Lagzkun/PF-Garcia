@@ -14,6 +14,9 @@ body {
 /* Sección Header */
 .menu {
     background-color: #fff000;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
 }
 
 .menu__nav {
@@ -50,6 +53,10 @@ main {
     padding: 8rem 1rem;
     color: #fff;
     text-shadow: 5px 5px 2px black;
+
+    /* animación */
+    animation-duration: 1.5s;
+    animation-name: slidein;
 }
 
 .hero h1 {
@@ -75,6 +82,11 @@ main {
 
 .producto-section__offers img {
     height: -webkit-fill-available;
+}
+
+.card-hover:hover{
+    transform: scale(1.1);
+    transition: 250ms;
 }
 
 
@@ -126,6 +138,10 @@ main {
     color: #fff;
     text-align: center;
     text-shadow: 5px 5px 2px black;
+
+    /* animación */
+    animation-duration: 1s;
+    animation-name: slidein;
 }
 
 .form-section {
@@ -154,6 +170,10 @@ main {
     color: #fff;
     text-align: center; 
     text-shadow: 5px 5px 2px black;
+
+    /* animación */
+    animation-duration: 1s;
+    animation-name: slidein;
 }
 
 .products-title h1 {
@@ -182,6 +202,21 @@ main {
     padding-top: 1.5rem;
 }
 
+/* Animaciones  */
+
+@keyframes slidein {
+    from {
+    margin-left: 100%;
+    width: 100%
+    }
+
+    to {
+    margin-left: 0%;
+    width: 100%;
+    }
+}
+
+
 /* media query tablet  */
 
 @media only screen and (max-width:1024px) {
@@ -190,9 +225,6 @@ main {
     }
     .products-section__list {
         grid-template-columns: repeat(2,1fr);
-    }
-    .products {
-        padding: 2rem;
     }
     .products-title {
         padding: 2rem;
