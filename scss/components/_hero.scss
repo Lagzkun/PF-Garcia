@@ -1,0 +1,14 @@
+.hero {
+    text-align: center;
+    padding: 8rem 1rem;
+    color: #fff;
+    text-shadow: 5px 5px 2px black;
+
+    /* animación */
+    animation-duration: 1.5s;
+    animation-name: slidein;
+}
+
+.hero h1 {
+    margin-bottom: 1.5rem;
+}

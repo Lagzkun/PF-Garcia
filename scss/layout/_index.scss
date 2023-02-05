@@ -1,0 +1,43 @@
+// seccion ofertas
+
+.product-section {
+    background-color: #fff000;
+    text-align: center;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+}
+
+.product-section h2 {
+    font-size: 2.5rem;
+    padding-bottom: 5rem;
+}
+.producto-section__offers {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+}
+
+.producto-section__offers img {
+    height: -webkit-fill-available;
+}
+
+// seccion destacados
+
+.featured-product {
+    text-align: center;
+    padding: 3rem;
+    width: 100%;
+    text-shadow: 5px 5px 2px black;
+    color: #fff;
+}
+
+.featured-product h2 {
+    padding-bottom: 2rem;
+}
+
+.featured-product img {
+    width: auto;
+    height: 500px;
+    margin: 0.5rem;
+    max-width: 100%;
+}

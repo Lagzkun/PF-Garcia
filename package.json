@@ -1,0 +1,22 @@
+{
+  "name": "desafio-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-sass": "node-sass --include-path scss ./scss/style.scss ./css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lagzkun/PreEntrega2-Garcia.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lagzkun/PreEntrega2-Garcia/issues"
+  },
+  "homepage": "https://github.com/Lagzkun/PreEntrega2-Garcia#readme",
+  "devDependencies": {
+    "sass": "^1.58.0"
+  }
+}

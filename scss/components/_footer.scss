@@ -1,0 +1,21 @@
+/* Sección Footer */
+
+.footer {
+    background-color: #fff000;
+    padding: 3rem;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-section__rrss {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.tag-legal {
+    text-align: center;
+}

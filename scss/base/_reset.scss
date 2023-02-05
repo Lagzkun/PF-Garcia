@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Press+Start+2P&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Press Start 2P', cursive; 
+}
+
+body {
+    background: linear-gradient(#674ea700, #b2a60200), url(../assets/game-wallpaper.jpg);
+}
+
+/* Sección Main */
+main {
+    background-color: #674ea79b;
+}

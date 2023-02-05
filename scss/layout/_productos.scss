@@ -1,0 +1,37 @@
+/* Pagina de Producto */
+.products-title {
+    padding: 5rem;
+    color: #fff;
+    text-align: center; 
+    text-shadow: 5px 5px 2px black;
+
+    /* animación */
+    animation-duration: 1s;
+    animation-name: slidein;
+}
+
+.products-title h1 {
+    margin-bottom: 1.5rem;
+}
+
+.products-section {
+    background-color: #ffee00;
+}
+
+.products-section__list {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2rem;
+    padding: 1rem;
+    justify-items: center;
+    text-align: center;
+}
+
+.products-section__list img {
+    height: -webkit-fill-available;
+}
+
+.products-section__option {
+    text-align: center;
+    padding-top: 1.5rem;
+}
