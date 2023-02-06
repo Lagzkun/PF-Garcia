@@ -1,6 +1,6 @@
-// formulario
+/* formulario */
 .form-title {
-    padding: 5rem;
+    padding: $spacer-5;
     color: $color-font-primary;
     text-align: center;
     text-shadow: 5px 5px 2px $color-shadows-primary;
@@ -13,12 +13,12 @@
 .form-section {
     text-align: center;
     background-color: $color-bg-second;
-    padding: 5rem;
+    padding: $spacer-5;
 }
 
-// Seccion de Preguntas
+/* Seccion de Preguntas */
 .questions {
-    padding: 5rem;
+    padding: $spacer-5;
     color: $color-font-primary;
     text-shadow: 5px 5px 2px $color-shadows-primary;
 }
@@ -28,5 +28,5 @@
 }
 
 .questions p {
-    margin-top: 1rem;
+    margin-top: $spacer-1;
 }

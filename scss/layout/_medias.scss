@@ -8,7 +8,7 @@
         grid-template-columns: repeat(2,1fr);
     }
     .products-title {
-        padding: 2rem;
+        padding: $spacer-2;
     }
 }
 
@@ -22,12 +22,12 @@
     }
 
     .hero {
-        padding: 2rem;
+        padding: $spacer-2;
     }
 
     .producto-section__offers {
         grid-template-columns: 1fr;
-        gap: 3rem;
+        gap: $spacer-3;
     }
 
     .products-section__list {
@@ -35,25 +35,25 @@
     }
 
     .products {
-        padding: 2rem 0 2rem 0;
+        padding: 2rem 0;
     }
 
     .form-title {
-        padding: 2rem;
+        padding: $spacer-2;
     }
 
     .questions {
-        padding: 2rem;
+        padding: $spacer-2;
     }
 
     .footer {
-        padding: .5rem;
+        padding: $spacer-1;
     }
 
     .footer-section {
         flex-direction: column-reverse;
         text-align: center;
-        gap: 1rem;
+        gap: $spacer-1;
     }
 
     .footer-section__rrss {

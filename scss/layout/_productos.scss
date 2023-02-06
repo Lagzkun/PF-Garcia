@@ -1,6 +1,6 @@
 /* Pagina de Producto */
 .products-title {
-    padding: 5rem;
+    padding: $spacer-5;
     color: $color-font-primary;
     text-align: center; 
     text-shadow: 5px 5px 2px $color-shadows-primary;
@@ -11,7 +11,7 @@
 }
 
 .products-title h1 {
-    margin-bottom: 1.5rem;
+    margin-bottom: $spacer-2;
 }
 
 .products-section {
@@ -21,8 +21,8 @@
 .products-section__list {
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    gap: 2rem;
-    padding: 1rem;
+    gap: $spacer-2;
+    padding: $spacer-1;
     justify-items: center;
     text-align: center;
 }
@@ -33,5 +33,5 @@
 
 .products-section__option {
     text-align: center;
-    padding-top: 1.5rem;
+    padding-top: $spacer-2;
 }

@@ -20,7 +20,7 @@ main {
   z-index: 1000; }
 
 .menu__nav {
-  padding: 1rem;
+  padding: 2rem;
   text-align: end; }
 
 .menu__nav-icon {
@@ -31,12 +31,13 @@ main {
 
 .menu__nav-list li {
   display: inline;
-  font-size: 2.5rem;
-  padding: 1rem; }
+  padding: 2rem; }
 
 .menu__nav-list li a {
+  font-size: 20px;
   text-decoration: none;
-  color: #000; }
+  color: #000;
+  font-weight: 300; }
 
 .hero {
   text-align: center;
@@ -46,19 +47,20 @@ main {
   animation-duration: 1.5s;
   animation-name: slidein; }
   .hero h1 {
-    margin-bottom: 1.5rem;
+    margin-bottom: 3rem;
     font-size: 46px;
     color: #fff; }
   .hero p {
     color: #fff; }
 
+/* card de productos */
 .card-hover:hover {
   transform: scale(1.1);
   transition: 250ms; }
 
 /* Sección Footer */
 .footer {
-  background-color: #fff000;
+  background-color: #674ea79b;
   padding: 3rem; }
 
 .footer-section {
@@ -73,12 +75,13 @@ main {
 .tag-legal {
   text-align: center; }
 
+/* seccion de ofertas */
 .product-section {
   background-color: #fff000;
   text-align: center; }
   .product-section h2 {
     font-size: 32px;
-    padding-bottom: 3rem; }
+    padding-bottom: 5rem; }
   .product-section .producto-section__offers {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -86,18 +89,19 @@ main {
     .product-section .producto-section__offers img {
       height: -webkit-fill-available; }
 
+/* seccion de destacados */
 .featured-product {
   text-align: center;
-  padding: 3rem;
+  padding: 5rem;
   width: 100%;
   text-shadow: 5px 5px 2px #161616;
   color: #ffeeee; }
   .featured-product h2 {
-    padding-bottom: 2rem; }
+    padding-bottom: 4rem; }
   .featured-product img {
     width: auto;
     height: 500px;
-    margin: 0.5rem;
+    margin: 1rem;
     max-width: 100%; }
 
 /* Pagina de Producto */
@@ -111,7 +115,7 @@ main {
   animation-name: slidein; }
 
 .products-title h1 {
-  margin-bottom: 1.5rem; }
+  margin-bottom: 2rem; }
 
 .products-section {
   background-color: #fff000; }
@@ -129,8 +133,9 @@ main {
 
 .products-section__option {
   text-align: center;
-  padding-top: 1.5rem; }
+  padding-top: 2rem; }
 
+/* formulario */
 .form-title {
   padding: 5rem;
   color: #fff;
@@ -145,6 +150,7 @@ main {
   background-color: #fff000;
   padding: 5rem; }
 
+/* Seccion de Preguntas */
 .questions {
   padding: 5rem;
   color: #fff;
@@ -178,13 +184,13 @@ main {
   .products-section__list {
     grid-template-columns: 1fr; }
   .products {
-    padding: 2rem 0 2rem 0; }
+    padding: 2rem 0; }
   .form-title {
     padding: 2rem; }
   .questions {
     padding: 2rem; }
   .footer {
-    padding: .5rem; }
+    padding: 1rem; }
   .footer-section {
     flex-direction: column-reverse;
     text-align: center;

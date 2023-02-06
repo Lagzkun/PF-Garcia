@@ -21,11 +21,12 @@
 
 .menu__nav-list li {
     display: inline;
-    font-size: 2.5rem;
-    padding: 1rem;
+    padding: $spacer-2;
 }
 
 .menu__nav-list li a {
+    font-size: $font-size-2;
     text-decoration: none;
-    color: #000;
+    color: $color-font-second;
+    font-weight: $font-weight-thin;
 }
