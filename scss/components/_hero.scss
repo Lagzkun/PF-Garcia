@@ -1,14 +1,19 @@
+//seccion hero
 .hero {
     text-align: center;
-    padding: 8rem 1rem;
-    color: #fff;
-    text-shadow: 5px 5px 2px black;
+    color: $color-font-primary;
+    text-shadow: 5px 5px 2px $color-shadows-primary;
 
     /* animación */
     animation-duration: 1.5s;
     animation-name: slidein;
-}
 
-.hero h1 {
-    margin-bottom: 1.5rem;
+    h1{
+        margin-bottom: $spacer-3;
+        font-size: $font-size-4;
+        color: $color-font-primary;
+    }
+    p {
+        color: $color-font-primary;
+    }
 }

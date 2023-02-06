@@ -1,43 +1,40 @@
 // seccion ofertas
-
 .product-section {
-    background-color: #fff000;
+    background-color: $color-bg-second;
     text-align: center;
-    padding-bottom: 5rem;
-    padding-top: 5rem;
-}
 
-.product-section h2 {
-    font-size: 2.5rem;
-    padding-bottom: 5rem;
-}
-.producto-section__offers {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    justify-items: center;
-}
+    h2 {
+        font-size: $font-size-3;
+        padding-bottom: $spacer-5;
+    }
 
-.producto-section__offers img {
-    height: -webkit-fill-available;
+    .producto-section__offers {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        justify-items: center;
+
+        img {
+            height: -webkit-fill-available;
+        }
+    }
 }
 
 // seccion destacados
-
 .featured-product {
     text-align: center;
-    padding: 3rem;
+    padding: $spacer-5;
     width: 100%;
-    text-shadow: 5px 5px 2px black;
-    color: #fff;
-}
+    text-shadow: 5px 5px 2px $color-shadows-primary;
+    color: $color-bg-thrid;
+    
+    h2 {
+        padding-bottom: $spacer-4;
+    }
 
-.featured-product h2 {
-    padding-bottom: 2rem;
-}
-
-.featured-product img {
-    width: auto;
-    height: 500px;
-    margin: 0.5rem;
-    max-width: 100%;
+    img {
+        width: auto;
+        height: 500px;
+        margin: $spacer-1;
+        max-width: 100%;
+    }
 }

@@ -1,13 +1,13 @@
 /* Sección Header */
 .menu {
-    background-color: #fff000;
+    background-color: $color-bg-second;
     position: fixed;
     width: 100%;
     z-index: 1000;
 }
 
 .menu__nav {
-    padding: 1rem;
+    padding: $spacer-2;
     text-align: end;
 }
 
@@ -16,7 +16,7 @@
 }
 
 .menu__nav-icon span{
-    font-size: 1.5rem;
+    font-size: $font-size-3;
 }
 
 .menu__nav-list li {

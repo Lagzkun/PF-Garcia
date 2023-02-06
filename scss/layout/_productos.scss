@@ -1,9 +1,9 @@
 /* Pagina de Producto */
 .products-title {
     padding: 5rem;
-    color: #fff;
+    color: $color-font-primary;
     text-align: center; 
-    text-shadow: 5px 5px 2px black;
+    text-shadow: 5px 5px 2px $color-shadows-primary;
 
     /* animación */
     animation-duration: 1s;
@@ -15,7 +15,7 @@
 }
 
 .products-section {
-    background-color: #ffee00;
+    background-color: $color-bg-second;
 }
 
 .products-section__list {
@@ -28,7 +28,7 @@
 }
 
 .products-section__list img {
-    height: -webkit-fill-available;
+    height: fit-content;
 }
 
 .products-section__option {

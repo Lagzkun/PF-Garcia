@@ -3,7 +3,6 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: 'Alfa Slab One', cursive;
   font-family: 'Press Start 2P', cursive; }
 
 body {
@@ -28,7 +27,7 @@ main {
   float: left; }
 
 .menu__nav-icon span {
-  font-size: 1.5rem; }
+  font-size: 32px; }
 
 .menu__nav-list li {
   display: inline;
@@ -41,15 +40,17 @@ main {
 
 .hero {
   text-align: center;
-  padding: 8rem 1rem;
   color: #fff;
-  text-shadow: 5px 5px 2px black;
+  text-shadow: 5px 5px 2px #161616;
   /* animación */
   animation-duration: 1.5s;
   animation-name: slidein; }
-
-.hero h1 {
-  margin-bottom: 1.5rem; }
+  .hero h1 {
+    margin-bottom: 1.5rem;
+    font-size: 46px;
+    color: #fff; }
+  .hero p {
+    color: #fff; }
 
 .card-hover:hover {
   transform: scale(1.1);
@@ -74,44 +75,37 @@ main {
 
 .product-section {
   background-color: #fff000;
-  text-align: center;
-  padding-bottom: 5rem;
-  padding-top: 5rem; }
-
-.product-section h2 {
-  font-size: 2.5rem;
-  padding-bottom: 5rem; }
-
-.producto-section__offers {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  justify-items: center; }
-
-.producto-section__offers img {
-  height: -webkit-fill-available; }
+  text-align: center; }
+  .product-section h2 {
+    font-size: 32px;
+    padding-bottom: 3rem; }
+  .product-section .producto-section__offers {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center; }
+    .product-section .producto-section__offers img {
+      height: -webkit-fill-available; }
 
 .featured-product {
   text-align: center;
   padding: 3rem;
   width: 100%;
-  text-shadow: 5px 5px 2px black;
-  color: #fff; }
-
-.featured-product h2 {
-  padding-bottom: 2rem; }
-
-.featured-product img {
-  width: auto;
-  height: 500px;
-  margin: 0.5rem;
-  max-width: 100%; }
+  text-shadow: 5px 5px 2px #161616;
+  color: #ffeeee; }
+  .featured-product h2 {
+    padding-bottom: 2rem; }
+  .featured-product img {
+    width: auto;
+    height: 500px;
+    margin: 0.5rem;
+    max-width: 100%; }
 
 /* Pagina de Producto */
 .products-title {
   padding: 5rem;
   color: #fff;
   text-align: center;
-  text-shadow: 5px 5px 2px black;
+  text-shadow: 5px 5px 2px #161616;
   /* animación */
   animation-duration: 1s;
   animation-name: slidein; }
@@ -120,7 +114,7 @@ main {
   margin-bottom: 1.5rem; }
 
 .products-section {
-  background-color: #ffee00; }
+  background-color: #fff000; }
 
 .products-section__list {
   display: grid;
@@ -131,7 +125,7 @@ main {
   text-align: center; }
 
 .products-section__list img {
-  height: -webkit-fill-available; }
+  height: fit-content; }
 
 .products-section__option {
   text-align: center;
@@ -141,7 +135,7 @@ main {
   padding: 5rem;
   color: #fff;
   text-align: center;
-  text-shadow: 5px 5px 2px black;
+  text-shadow: 5px 5px 2px #161616;
   /* animación */
   animation-duration: 1s;
   animation-name: slidein; }
@@ -154,7 +148,7 @@ main {
 .questions {
   padding: 5rem;
   color: #fff;
-  text-shadow: 5px 5px 2px black; }
+  text-shadow: 5px 5px 2px #161616; }
 
 .questions h2 {
   text-align: center; }

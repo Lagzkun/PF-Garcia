@@ -1,9 +1,9 @@
 // formulario
 .form-title {
     padding: 5rem;
-    color: #fff;
+    color: $color-font-primary;
     text-align: center;
-    text-shadow: 5px 5px 2px black;
+    text-shadow: 5px 5px 2px $color-shadows-primary;
 
     /* animación */
     animation-duration: 1s;
@@ -12,15 +12,15 @@
 
 .form-section {
     text-align: center;
-    background-color: #fff000;
+    background-color: $color-bg-second;
     padding: 5rem;
 }
 
 // Seccion de Preguntas
 .questions {
     padding: 5rem;
-    color: #fff;
-    text-shadow: 5px 5px 2px black;
+    color: $color-font-primary;
+    text-shadow: 5px 5px 2px $color-shadows-primary;
 }
 
 .questions h2 {
