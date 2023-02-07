@@ -6,6 +6,7 @@
     h2 {
         font-size: $font-size-3;
         padding-bottom: $spacer-5;
+        font-family: $font-main;
     }
 
     .producto-section__offers {
@@ -29,6 +30,13 @@
     
     h2 {
         padding-bottom: $spacer-4;
+        font-family: $font-main;
+        font-size: $font-size-3;
+    }
+
+    p{
+        font-family: $font-second;
+        letter-spacing: 2px;
     }
 
     img {

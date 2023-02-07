@@ -12,8 +12,11 @@
         margin-bottom: $spacer-3;
         font-size: $font-size-4;
         color: $color-font-primary;
+        font-family: $font-main;
     }
     p {
         color: $color-font-primary;
+        font-family: $font-second;
+        letter-spacing: 2px;
     }
 }

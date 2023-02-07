@@ -1,9 +1,9 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Roboto&family=Titillium+Web:ital,wght@0,200;1,200&display=swap");
 * {
   padding: 0;
-  margin: 0;
-  font-family: 'Press Start 2P', cursive; }
+  margin: 0; }
 
 body {
   background: linear-gradient(#674ea700, #b2a60200), url(../assets/game-wallpaper.jpg); }
@@ -17,27 +17,12 @@ main {
   background-color: #fff000;
   position: fixed;
   width: 100%;
-  z-index: 1000; }
-
-.menu__nav {
-  padding: 2rem;
-  text-align: end; }
-
-.menu__nav-icon {
-  float: left; }
-
-.menu__nav-icon span {
-  font-size: 32px; }
-
-.menu__nav-list li {
-  display: inline;
-  padding: 2rem; }
-
-.menu__nav-list li a {
-  font-size: 20px;
-  text-decoration: none;
+  z-index: 1000;
   color: #000;
-  font-weight: 300; }
+  font-weight: 600;
+  font-size: 20px; }
+  .menu .title-shop {
+    font-family: "Press Start 2P"; }
 
 .hero {
   text-align: center;
@@ -49,18 +34,29 @@ main {
   .hero h1 {
     margin-bottom: 3rem;
     font-size: 46px;
-    color: #fff; }
+    color: #fff;
+    font-family: "Press Start 2P"; }
   .hero p {
-    color: #fff; }
+    color: #fff;
+    font-family: "Anton", sans-serif;
+    letter-spacing: 2px; }
 
 /* card de productos */
 .card-hover:hover {
   transform: scale(1.1);
   transition: 250ms; }
 
+.featured-product__carousel {
+  background-color: #fff000;
+  padding: 4rem; }
+
+.carousel-item.active.carousel-slider {
+  display: flex;
+  justify-content: space-evenly; }
+
 /* Sección Footer */
 .footer {
-  background-color: #674ea79b;
+  background-color: #fff000;
   padding: 3rem; }
 
 .footer-section {
@@ -81,7 +77,8 @@ main {
   text-align: center; }
   .product-section h2 {
     font-size: 32px;
-    padding-bottom: 5rem; }
+    padding-bottom: 5rem;
+    font-family: "Press Start 2P"; }
   .product-section .producto-section__offers {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -97,7 +94,12 @@ main {
   text-shadow: 5px 5px 2px #161616;
   color: #ffeeee; }
   .featured-product h2 {
-    padding-bottom: 4rem; }
+    padding-bottom: 4rem;
+    font-family: "Press Start 2P";
+    font-size: 32px; }
+  .featured-product p {
+    font-family: "Anton", sans-serif;
+    letter-spacing: 2px; }
   .featured-product img {
     width: auto;
     height: 500px;

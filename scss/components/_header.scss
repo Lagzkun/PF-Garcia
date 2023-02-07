@@ -3,30 +3,11 @@
     background-color: $color-bg-second;
     position: fixed;
     width: 100%;
-    z-index: 1000;
-}
-
-.menu__nav {
-    padding: $spacer-2;
-    text-align: end;
-}
-
-.menu__nav-icon {
-    float: left;
-}
-
-.menu__nav-icon span{
-    font-size: $font-size-3;
-}
-
-.menu__nav-list li {
-    display: inline;
-    padding: $spacer-2;
-}
-
-.menu__nav-list li a {
-    font-size: $font-size-2;
-    text-decoration: none;
+    z-index: 1000;  
     color: $color-font-second;
-    font-weight: $font-weight-thin;
+    font-weight: $font-weight-bold;
+    font-size: $font-size-2;
+    .title-shop{
+        font-family: $font-main;
+    }
 }
