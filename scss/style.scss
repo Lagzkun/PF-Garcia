@@ -1,12 +1,12 @@
 // import de base
 @import './base/vars';
 @import './base/reset';
+@import './base/mixin';
 
 // import de components
 @import './components/header';
 @import './components/hero';
 @import './components/cards';
-@import './components/carousel-product';
 @import './components/footer';
 
 // import de layout

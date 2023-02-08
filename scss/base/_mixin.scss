@@ -1,0 +1,5 @@
+@mixin card-category($ancho, $alto, $bg-color) {
+    width: $ancho;
+    height: $alto;
+    background-color: $bg-color;
+}
