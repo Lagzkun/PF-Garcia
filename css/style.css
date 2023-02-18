@@ -212,7 +212,10 @@ main {
     align-items: center; }
   /* sección de productos */
   .products-section__list {
-    grid-template-columns: repeat(2, 1fr); } }
+    grid-template-columns: repeat(2, 1fr); }
+  /* sección de formulario */
+  .form-section {
+    padding: 3rem; } }
 
 /* ----------- media query mobile ----------*/
 @media only screen and (max-width: 480px) {
@@ -245,8 +248,8 @@ main {
     grid-template-columns: repeat(1, 1fr);
     justify-content: center; }
   /* sección de formulario */
-  .form-title {
-    padding: 2rem; }
+  .form-section {
+    padding: 1rem; }
   /* sección de preguntas */
   .questions {
     padding: 2rem; }

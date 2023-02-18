@@ -23,7 +23,12 @@
 /* sección de productos */
 .products-section__list {
     grid-template-columns: repeat(2, 1fr);
-}    
+}
+
+/* sección de formulario */
+.form-section {
+    padding: $spacer-3;
+}
 }
 
 /* ----------- media query mobile ----------*/
@@ -77,8 +82,8 @@ a.navbar-brand {
 }   
 
 /* sección de formulario */
-.form-title {
-    padding: $spacer-2;
+.form-section {
+    padding: $spacer-1;
 }
 
 /* sección de preguntas */
