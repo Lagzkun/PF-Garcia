@@ -2,19 +2,20 @@
 .footer {
     background-color: $color-bg-second;
     padding: $spacer-3;
-}
-
-.footer-section {
-    display: flex;
-    justify-content: space-between;
-}
-
-.footer-section__rrss {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    .footer-section {
+        display: flex;
+        justify-content: space-between;
+        .footer-section__rrss {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    }
 }
 
 .tag-legal {
     text-align: center;
+    span {
+        font-family: $font-main;
+    }
 }

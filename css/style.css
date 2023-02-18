@@ -57,18 +57,18 @@ main {
 .footer {
   background-color: #fff000;
   padding: 3rem; }
-
-.footer-section {
-  display: flex;
-  justify-content: space-between; }
-
-.footer-section__rrss {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between; }
+  .footer .footer-section {
+    display: flex;
+    justify-content: space-between; }
+    .footer .footer-section .footer-section__rrss {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between; }
 
 .tag-legal {
   text-align: center; }
+  .tag-legal span {
+    font-family: "Press Start 2P"; }
 
 /* seccion de ofertas */
 .product-section {
@@ -197,7 +197,7 @@ main {
 .questions p {
   margin-top: 1rem; }
 
-/* media query tablet  */
+/* ---------- media query tablet --------- */
 @media only screen and (max-width: 1024px) {
   /* seccion de ofertas */
   .product-section .product-section__offers {
@@ -214,7 +214,7 @@ main {
   .products-section__list {
     grid-template-columns: repeat(2, 1fr); } }
 
-/* media query mobile */
+/* ----------- media query mobile ----------*/
 @media only screen and (max-width: 480px) {
   .hero h1 {
     font-size: 20px; }
@@ -225,12 +225,14 @@ main {
   .products-title {
     padding: 2rem; }
   /* sección de categorias */
-  .featured-product h2 {
-    font-size: 20px; }
-  .featured-product .category-product {
-    flex-direction: column;
-    gap: 3rem;
-    align-items: center; }
+  .featured-product {
+    padding: 1rem; }
+    .featured-product h2 {
+      font-size: 20px; }
+    .featured-product .category-product {
+      flex-direction: column;
+      gap: 3rem;
+      align-items: center; }
   /* sección de menu */
   a.navbar-brand {
     font-size: 13px;

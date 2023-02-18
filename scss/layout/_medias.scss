@@ -1,4 +1,4 @@
-/* media query tablet  */
+/* ---------- media query tablet --------- */
 
 @media only screen and (max-width:1024px) {
 
@@ -26,7 +26,7 @@
 }    
 }
 
-/* media query mobile */
+/* ----------- media query mobile ----------*/
 
 @media only screen and (max-width:480px) {
 
@@ -48,6 +48,7 @@
 
 /* sección de categorias */
 .featured-product {
+    padding: $spacer-1;
     h2 {
         font-size: $font-size-2;
     }
