@@ -1,5 +1,15 @@
 /* card de productos */
-.card-hover:hover{
-    transform: scale(1.1);
-    transition: 250ms;
+.card-hover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img {
+        height: 300px;
+        width: 200px;
+    }
+    &:hover{
+        transform: scale(1.1);
+        transition: 250ms;
+    }
 }
+

@@ -42,9 +42,16 @@ main {
     letter-spacing: 2px; }
 
 /* card de productos */
-.card-hover:hover {
-  transform: scale(1.1);
-  transition: 250ms; }
+.card-hover {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .card-hover img {
+    height: 300px;
+    width: 200px; }
+  .card-hover:hover {
+    transform: scale(1.1);
+    transition: 250ms; }
 
 /* Sección Footer */
 .footer {
@@ -75,8 +82,6 @@ main {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-items: center; }
-    .product-section .product-section__offers img {
-      height: -webkit-fill-available; }
 
 /* seccion de categorias */
 .featured-product {
@@ -160,9 +165,6 @@ main {
   padding: 1rem;
   justify-items: center;
   text-align: center; }
-
-.products-section__list img {
-  height: fit-content; }
 
 .products-section__option {
   text-align: center;
