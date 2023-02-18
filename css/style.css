@@ -84,7 +84,7 @@ main {
   padding: 5rem;
   width: 100%; }
   .featured-product h2 {
-    padding-bottom: 4rem;
+    padding-bottom: 1rem;
     font-family: "Press Start 2P";
     font-size: 32px;
     text-shadow: 5px 5px 2px #161616;
@@ -93,7 +93,8 @@ main {
     font-family: "Anton", sans-serif;
     letter-spacing: 2px;
     text-shadow: 5px 5px 2px #161616;
-    color: #ffeeee; }
+    color: #ffeeee;
+    padding-bottom: 3rem; }
   .featured-product .category-product {
     display: flex;
     justify-content: space-between; }
