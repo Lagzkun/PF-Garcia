@@ -12,6 +12,15 @@ body {
 main {
   background-color: #674ea79b; }
 
+.card-hover img {
+  height: 300px;
+  width: 200px; }
+
+.card-hover {
+  width: 100%;
+  background-color: #281C4C;
+  color: #fff; }
+
 /* Sección Header */
 .menu {
   background-color: #fff000;
@@ -46,12 +55,11 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center; }
-  .card-hover img {
-    height: 300px;
-    width: 200px; }
   .card-hover:hover {
     transform: scale(1.1);
-    transition: 250ms; }
+    transition: 250ms;
+    background-color: #ffeeee;
+    color: #000; }
 
 /* Sección Footer */
 .footer {
@@ -78,10 +86,6 @@ main {
     font-size: 32px;
     padding-bottom: 5rem;
     font-family: "Press Start 2P"; }
-  .product-section .product-section__offers {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    justify-items: center; }
 
 /* seccion de categorias */
 .featured-product {
@@ -255,14 +259,14 @@ main {
     padding: 2rem; }
   /* sección de footer */
   .footer {
-    padding: 1rem; }
+    padding: 0.5rem; }
     .footer .footer-section {
       flex-direction: column-reverse;
       text-align: center;
       gap: 1rem; }
-    .footer .footer-section__rrss {
-      flex-direction: initial;
-      justify-content: space-around; } }
+      .footer .footer-section .footer-section__rrss {
+        flex-direction: initial;
+        justify-content: space-around; } }
 
 /* Animaciones  */
 @keyframes slidein {

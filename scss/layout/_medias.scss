@@ -93,17 +93,16 @@ a.navbar-brand {
 
 /* sección de footer */
 .footer {
-    padding: $spacer-1;
+    padding: $spacer-0;
 
     .footer-section {
         flex-direction: column-reverse;
         text-align: center;
         gap: $spacer-1;
-    }
-
-    .footer-section__rrss {
-        flex-direction: initial;
-        justify-content: space-around;
+        .footer-section__rrss {
+            flex-direction: initial;
+            justify-content: space-around;
+        }
     }
 }
 
